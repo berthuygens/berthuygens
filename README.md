@@ -20,9 +20,3 @@
   Passion: letting Claude Code do the terminal work so I don't have to.
 ```
 
-### What I automate
-
-- **Infrastructure** &mdash; Terraform/Terragrunt plans, AWS resource management, cost analysis
-- **Security** &mdash; Compliance audits (CyberFundamentals), Prowler scans, policy reviews
-- **Operations** &mdash; log analysis, endpoint investigations
-- **Workflows** &mdash; Claude Code skills, subagents, hooks..
