@@ -8,9 +8,8 @@
 
 <p align="center">
   <code>automate.terminals.work</code><br><br>
-  I build agentic workflows that turn terminals into autonomous operators.<br>
-  Infrastructure as code, security audits, deployments &mdash; orchestrated by AI agents,<br>
-  validated by humans. Less clicking, more shipping.
+ Agentic workflows that turn terminals into autonomous operators.<br>
+  Infrastructure as code, security audits, deployments, orchestrated by AI agents,<br>
 </p>
 
 ---
@@ -25,9 +24,5 @@
 
 - **Infrastructure** &mdash; Terraform/Terragrunt plans, AWS resource management, cost analysis
 - **Security** &mdash; Compliance audits (CyberFundamentals), Prowler scans, policy reviews
-- **Operations** &mdash; SSM remote commands, log analysis, endpoint investigations
-- **Workflows** &mdash; Claude Code skills, subagents, hooks, and MCP integrations
-
-<p align="center">
-  <a href="https://automate.terminals.work">automate.terminals.work</a>
-</p>
+- **Operations** &mdash; log analysis, endpoint investigations
+- **Workflows** &mdash; Claude Code skills, subagents, hooks..
