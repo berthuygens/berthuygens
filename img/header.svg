@@ -6,7 +6,7 @@
                 .container {
                     width: 800px;
                     height: 240px;
-                    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+                    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
                     border-radius: 10px;
                     padding: 20px 30px;
                     font-family: ui-monospace, 'SF Mono', Monaco, 'Cascadia Code', 'Courier New', monospace;
@@ -16,7 +16,7 @@
                     align-items: center;
                     gap: 6px;
                     padding: 8px;
-                    background-color: rgba(0, 0, 0, 0.08);
+                    background-color: rgba(0, 0, 0, 0.3);
                     border-radius: 8px;
                     margin-bottom: 20px;
                 }
@@ -65,9 +65,9 @@
                     to { content: '✓'; color: #27C93F; }
                 }
                 .command {
-                    color: #1a1a1a;
+                    color: #FFD9CC;
                     overflow: hidden;
-                    border-right: 2px solid #1a1a1a;
+                    border-right: 2px solid #FFD9CC;
                     white-space: nowrap;
                     width: 0;
                     animation:
@@ -112,11 +112,11 @@
                     flex-shrink: 0;
                 }
                 .text {
-                    color: #4a4a4a;
+                    color: #B8B8B8;
                     line-height: 1.6;
                 }
                 .highlight {
-                    color: #1a1a1a;
+                    color: #FFD9CC;
                     font-weight: 500;
                 }
                 .typing-line {
@@ -129,7 +129,7 @@
                     to { width: 100%; }
                 }
                 a {
-                    color: #1a1a1a;
+                    color: #FFD9CC;
                     text-decoration: none;
                 }
                 a:hover {
