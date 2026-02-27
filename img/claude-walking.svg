@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 90" width="480" height="90">
+  <style>
+    .walker {
+      animation: walk 8s ease-in-out infinite;
+    }
+    @keyframes walk {
+      0%, 100% { transform: translateX(0px); }
+      50% { transform: translateX(380px); }
+    }
+    .bob {
+      animation: bob 0.45s ease-in-out infinite;
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-2px); }
+    }
+    .leg-l { animation: step-l 0.45s ease-in-out infinite; }
+    .leg-r { animation: step-r 0.45s ease-in-out infinite; }
+    @keyframes step-l {
+      0%, 100% { transform: translateX(-3px); }
+      50% { transform: translateX(3px); }
+    }
+    @keyframes step-r {
+      0%, 100% { transform: translateX(3px); }
+      50% { transform: translateX(-3px); }
+    }
+    .arm-l {
+      animation: swing-l 0.45s ease-in-out infinite;
+      transform-origin: 14px 40px;
+    }
+    .arm-r {
+      animation: swing-r 0.45s ease-in-out infinite;
+      transform-origin: 86px 40px;
+    }
+    @keyframes swing-l {
+      0%, 100% { transform: rotate(10deg); }
+      50% { transform: rotate(-10deg); }
+    }
+    @keyframes swing-r {
+      0%, 100% { transform: rotate(-10deg); }
+      50% { transform: rotate(10deg); }
+    }
+    .ear-l {
+      animation: ear 0.45s ease-in-out infinite;
+      transform-origin: center bottom;
+    }
+    .ear-r {
+      animation: ear 0.45s ease-in-out infinite 0.08s;
+      transform-origin: center bottom;
+    }
+    @keyframes ear {
+      0%, 100% { transform: scaleY(1); }
+      40% { transform: scaleY(1.18); }
+    }
+  </style>
+
+  <g class="walker">
+    <!-- Shadow -->
+    <ellipse cx="50" cy="82" rx="18" ry="4" fill="#000" opacity="0.15"/>
+    <!-- Character -->
+    <g class="bob">
+      <!-- Ears -->
+      <rect class="ear-l" x="22" y="12" width="8" height="12" fill="#E07C4C"/>
+      <rect class="ear-r" x="70" y="12" width="8" height="12" fill="#E07C4C"/>
+      <!-- Head top -->
+      <rect x="18" y="24" width="64" height="4" fill="#E07C4C"/>
+      <!-- Body -->
+      <rect x="14" y="28" width="72" height="32" fill="#E07C4C"/>
+      <!-- Eyes -->
+      <rect x="30" y="34" width="8" height="10" fill="#000"/>
+      <rect x="62" y="34" width="8" height="10" fill="#000"/>
+      <!-- Arms -->
+      <rect class="arm-l" x="2" y="36" width="12" height="8" fill="#E07C4C"/>
+      <rect class="arm-r" x="86" y="36" width="12" height="8" fill="#E07C4C"/>
+      <!-- Legs -->
+      <rect class="leg-l" x="24" y="60" width="12" height="14" fill="#E07C4C"/>
+      <rect class="leg-r" x="64" y="60" width="12" height="14" fill="#E07C4C"/>
+    </g>
+  </g>
+</svg>

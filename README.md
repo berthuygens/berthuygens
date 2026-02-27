@@ -1,7 +1,7 @@
 ![Terminal Header](./img/header.svg)
 
 <p align="center">
-  <img src="./img/claude-jumping.svg" alt="Claude Code mascot jumping" width="120" height="100">
+  <img src="./img/claude-walking.svg" alt="Claude Code mascot walking" width="360" height="68">
 </p>
 
 <h3 align="center">Agentic DevOps &mdash; automating terminal work with Claude Code</h3>
