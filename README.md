@@ -13,6 +13,6 @@ Turning terminals into autonomous operators.<br>
 ```
 > whoami
   Bert Huygens  •  ICT DevOps Manager  •  CISO
-  Passion: Automating terminal work .
+  Automating terminal work
 ```
 
