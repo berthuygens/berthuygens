@@ -169,7 +169,7 @@
                     </div>
                     <div class="line">
                         <span class="bullet">⏺</span>
-                        <span class="text typing-line">automate.terminals(); • Claude Code</span>
+                        <span class="text typing-line">automate.terminals();</span>
                     </div>
                 </div>
             </div>
